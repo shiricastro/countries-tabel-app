@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+# more
+package.json
+package-lock.json
+.gitignore.txt
+/public/manifest.json
+/public/robots.txt
+/src/serviceWorker.js
+
 # testing
 /coverage
 
