@@ -12,7 +12,7 @@ h1 {
   margin: 0;
   text-transform: uppercase;
 }
-*>{
+*{
   box-sizing: border-box;
 }
 .countries_tabel_container {
@@ -69,4 +69,43 @@ input {
     font-size: 100%;
     font-weight: 300;
     font-family: 'Heebo', sans-serif;
+}
+
+@media(max-width:1024px){
+  body{
+    font-size: 4vw;
+  }
+  .countries_tabel_container{
+    max-width: 92%;
+    padding: 5vw 0;    
+  }
+  .search_bar{
+    width: 100%;
+    padding: 4vw 3vw;
+    margin: 3vw auto 7vw;    
+  }
+  .checkboxes_container label {
+      margin: 0 3vw 4vw;
+      display: inline-block;
+  }
+  input[type="checkbox"]{
+    width: 3.3vw;
+    height: 3.3vw;
+  }
+  label span {
+      margin-right: 1.5vw;
+  }
+  .search_input {
+      margin-top: 4vw;
+  }
+  th, td {
+      padding: 1.5vw 2vw;
+  }
+  .countries_tabel {
+      max-width: 100%;
+      overflow-x: auto;
+  }
+  td img {
+      width: 8.5vw;
+  }
 }
